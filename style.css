@@ -279,6 +279,7 @@
   font-family: "Montserrat";
   font-weight: 700;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 
 .order button {
@@ -315,6 +316,7 @@
   gap: 10px;
   padding: 10px 20px;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .fb a:visited {
@@ -335,6 +337,7 @@
   gap: 10px;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .ig a:visited {
@@ -346,6 +349,10 @@
   border: none;
   color: #ffffff;
   cursor: pointer;
+}
+
+.ig i {
+  color: #fff;
 }
 
 .footer h3 {
@@ -420,4 +427,28 @@
   font-size: 32px;
   margin-bottom: 42px;
   text-align: center;
+}
+
+@media screen and (max-width: 1185px) {
+  .img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .detail .d-1 {
+    width: 338px;
+    /* height: 796px; */
+    margin-right: 30px;
+  }
+
+  .D1 {
+    margin-bottom: 38px;
+  }
+
+  .detail .d-2 img {
+    width: 602px;
+    height: 755px;
+    transition: all 0.2s linear;
+    border-radius: 12px;
+  }
 }

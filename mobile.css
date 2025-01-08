@@ -1,0 +1,193 @@
+@media screen and (max-width: 600px) {
+  .header {
+    margin-bottom: 80px;
+  }
+
+  .trip {
+    margin-bottom: 110px;
+  }
+
+  .trip h1 {
+    font-size: 58px;
+  }
+
+  .garchig {
+    margin-bottom: 60px;
+  }
+
+  .detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  .detail .d-1 {
+    width: 330px;
+    height: 730px;
+  }
+
+  .D1 {
+    margin-bottom: 30px;
+  }
+
+  .detail .paraghraph {
+    font-size: 24px;
+  }
+
+  .detail h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+
+  .detail .d-2 img {
+    width: 500px;
+    height: 650px;
+    border-radius: 12px;
+  }
+
+  .price h2 {
+    font-size: 38px;
+  }
+
+  .p-1 {
+    width: 230px;
+    height: 340px;
+    padding: 40px;
+    margin-right: 18px;
+  }
+
+  .p-2 {
+    width: 230px;
+    height: 340px;
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  .zurag {
+    height: 400px;
+    width: 470px;
+  }
+  .trip .img img {
+    height: 400px;
+    width: 470px;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .trip h1 {
+    font-size: 48px;
+  }
+
+  .zurag {
+    height: 400px;
+    width: 400px;
+  }
+  .trip .img img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .detail .paraghraph {
+    font-size: 20px;
+  }
+
+  .detail h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .detail .d-2 img {
+    width: 400px;
+    height: 580px;
+    border-radius: 12px;
+  }
+
+  .price {
+    height: 907px;
+  }
+
+  .price-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-1 {
+    width: 270px;
+    height: 330px;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+
+  .p-2 {
+    width: 270px;
+    height: 330px;
+    padding: 30px;
+  }
+
+  .footer {
+    padding: 80px 70px;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .trip h1 {
+    font-size: 40px;
+  }
+
+  .zurag {
+    height: 400px;
+    width: 340px;
+  }
+  .trip .img img {
+    height: 400px;
+    width: 340px;
+  }
+
+  .detail .paraghraph {
+    font-size: 18px;
+  }
+
+  .detail .d-1 {
+    width: 240px;
+    height: 796px;
+  }
+
+  .detail h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+
+  .detail .d-2 img {
+    width: 330px;
+    height: 530px;
+    border-radius: 12px;
+  }
+
+  .price {
+    height: 907px;
+  }
+
+  .price-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-1 {
+    width: 270px;
+    height: 330px;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+
+  .p-2 {
+    width: 270px;
+    height: 330px;
+    padding: 30px;
+  }
+
+  .footer {
+    padding: 80px 50px;
+  }
+}
